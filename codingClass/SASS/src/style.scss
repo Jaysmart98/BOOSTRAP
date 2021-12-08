@@ -1,0 +1,32 @@
+@import "_mixin";
+@import "_reset";
+@import "_variable";
+
+header{
+    background-color: red;
+    border: 2px solid blue;
+    nav{
+        ul{
+            list-style-type: none;
+            display: flex;
+            li{
+                margin: 0 30px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
+section{
+    display: flex;
+    div{
+        font-family: monospace;
+    }
+}
+// $my-font: ;
+    //color
+// 

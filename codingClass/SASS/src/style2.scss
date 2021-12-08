@@ -1,0 +1,50 @@
+@import "_mixin";
+@import "_reset";
+@import "_variable";
+
+header{
+    width: 100%;
+    background-color: $primary-color;
+    // height: 10vh;
+    // position: fixed;
+       nav {
+               height: 10vh;
+        ul{
+           list-style-type: none;
+           @include flex( row, center, center);
+           height: inherit;
+           li{
+                margin: 0 30px;
+                padding: 25px;
+                a{
+                    text-decoration: none;
+                    color: $white;
+                  }
+               }
+           }
+    }
+}
+
+div.button-basic{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: black;
+    margin: 10px;
+    border: 5px solid darkblue;
+}
+#class{
+     display: flex;
+ }
+div.button-report{
+    @extend div.button-basic;
+    background-color: black;
+}
+div.button-submit{
+    @extend div.button-report;
+    background-color: black;
+}

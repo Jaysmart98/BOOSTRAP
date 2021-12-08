@@ -1,0 +1,129 @@
+@import "_mixin";
+@import "_reset";
+@import "_variable";
+
+
+main{
+    // @include flex( row);
+      header{
+        // margin-top: 100px;
+        width: 20%;
+        background-color: rgb(4,11,21);
+        height:1000px;
+        position: fixed;
+      #smart{
+          width: 400px;
+          img{
+            border: 6px solid black;
+              margin-top: 10px;
+              margin-left: 70px;
+              width: 100px;
+              height:100px;
+              border-radius: 500px;
+          }
+          h2{
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 10px;
+            color: invert($color: #000000);
+            font-size: 1.1em;
+            margin-left: 30px;
+            width: 200px;
+         }
+        //   h3{
+        //   text-align: center;
+        //   color: white;
+        //   margin-left: 3px;
+        //   width: 390px;
+        //   margin-top: 20px;
+        // }
+      } 
+      #copy{
+        text-decoration: none;
+        font-size: 1.1em;
+        color: white;
+        // padding: 60px;
+        padding: 50px;
+        margin-top: 50px;
+      }  
+    }
+}
+
+nav{
+  ul{
+      list-style-type: none;
+      li{
+          margin-left:30px;
+          margin-top: 20px;
+          a{
+              text-decoration: none;
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+              font-weight: 300;
+              img{
+                width: 20px;
+                margin-top: 10px;
+              }
+          }
+      }
+  }
+}
+section{
+        width: 80%;
+        height: 700px;
+        margin-left: 20%;
+        background-color: rgb(50, 64, 83);
+        #josh{
+          height: 400px;
+          width: 400px;
+          border-radius: 300px ;
+          border: 3px solid red;
+          margin-left: 500px;
+        }
+        img{
+          opacity: 80%;
+          height: 500px;
+          width: 300px;
+          margin-left: 300px;
+          margin-top: 50px;
+        }
+        h2{
+          font-size: 3.2em;
+          color: white;
+          margin-top: -100px;
+          margin-left: 295px;
+        }
+        p{
+          font-size: 1.4em;
+          color: white;
+          margin-left: 310px;
+         
+        }
+}
+
+// .border-top{
+//     @include flex(row);
+//     width: 70vw;
+//     position: fixed;
+//     margin-left: 130px;
+//         div.border-darkblue {
+//          width: 30%;
+//          background-color: $primary-color;
+//          }
+//         div.border-black{
+//         width: 30%;
+//         background-color: black;
+//         }
+//         div.border-darkblue{
+//         width: 30%;
+//         background-color: $primary-color;
+//         }
+//         div.border-black{
+//         width: 30%;
+//         border: thick solid black;
+//         }
+//         div.border-darkblue{
+//         width: 30%;
+//         background-color: $primary-color;
+//         }
+//     }

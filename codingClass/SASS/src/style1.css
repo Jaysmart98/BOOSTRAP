@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+main header {
+  width: 30%;
+  background-color: black;
+  height: 100vh;
+  position: fixed;
+}
+
+main header #smart {
+  width: 400px;
+}
+
+main header #smart img {
+  margin-top: 30px;
+  margin-left: -80px;
+  width: 530px;
+  height: 300px;
+  border-radius: 0 0 100px 100px;
+}
+
+main header #smart h2 {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 10px;
+  color: white;
+  font-size: 1.8em;
+  margin-left: -20px;
+  width: 400px;
+}
+
+main header #smart h3 {
+  text-align: center;
+  color: white;
+  margin-left: 3px;
+  width: 390px;
+  margin-top: 20px;
+}
+
+section {
+  width: 80%;
+  height: 700px;
+  margin-left: 20%;
+}
+
+.border-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70vw;
+  position: fixed;
+  margin-left: 130px;
+}
+
+.border-top div.border-darkblue {
+  width: 30%;
+  background-color: #07071a;
+}
+
+.border-top div.border-black {
+  width: 30%;
+  background-color: black;
+}
+
+.border-top div.border-darkblue {
+  width: 30%;
+  background-color: #07071a;
+}
+
+.border-top div.border-black {
+  width: 30%;
+  border: thick solid black;
+}
+
+.border-top div.border-darkblue {
+  width: 30%;
+  background-color: #07071a;
+}
+/*# sourceMappingURL=style1.css.map */

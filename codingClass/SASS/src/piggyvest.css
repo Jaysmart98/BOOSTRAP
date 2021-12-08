@@ -1,0 +1,342 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1,
+#sect1 p, h2, #flex #item1 h3, #flex #item2 h3, #flex #item3 h3, #flex #item4 h3, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main header {
+  width: 20%;
+  background-color: #062863;
+  height: 100vh;
+  position: fixed;
+}
+
+#options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#options #option1 {
+  width: 200px;
+  height: 30px;
+}
+
+#sect1 {
+  width: 70%;
+  height: 1200px;
+  margin-left: 20%;
+}
+
+#sect1 h1, #sect1 p {
+  font-family: cursive;
+  color: black;
+  font-size: 2em;
+  margin-left: 60px;
+  margin-top: 60px;
+  font-weight: 700;
+}
+
+#sect1 p {
+  color: #8780b0;
+  font-weight: 300;
+  font-size: 1.1em;
+  margin-top: 2px;
+}
+
+#sect1 #save {
+  font-family: sans-serif;
+  background-color: #0d60d8;
+  color: #ffff;
+  margin-left: 800px;
+  width: 140px;
+  border-radius: 5px 5px 5px 0;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+#flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  margin-top: -20px;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+#flex #item1, #flex #item2, #flex #item3, #flex #item4 {
+  width: 450px;
+  height: 130px;
+  background-color: #1264d8;
+  border-radius: 5px 5px 5px 0;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+#flex #item1 h2, #flex #item2 h2, #flex #item3 h2, #flex #item4 h2, #flex #item1 h3, #flex #item2 h3, #flex #item3 h3, #flex #item4 h3 {
+  font-size: 1.4em;
+  margin-left: 55px;
+}
+
+#flex #item1 h3, #flex #item2 h3, #flex #item3 h3, #flex #item4 h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#flex #item2 {
+  background-color: #7c19e5;
+  margin-left: 20px;
+}
+
+#flex #item3 {
+  background-color: #222222;
+  margin-left: 20px;
+}
+
+#flex #item4 {
+  color: #e7439d;
+  background-color: #ffff;
+  border: 1px solid #c0b8b8;
+  margin-left: 20px;
+}
+
+#setup {
+  width: 800px;
+}
+
+#setup #item5 {
+  border: 1px solid #cfdbe0;
+  width: 600px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px 5px 5px 0;
+}
+
+#setup #item5 #circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid #062863;
+  margin: 10px;
+}
+
+#setup #item5 h4 {
+  font-size: 0.8em;
+  color: #424a57;
+  margin-left: 50px;
+  margin-top: -30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#setup #item6 {
+  border: 1px solid #296781;
+  width: 600px;
+  height: 70px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px 5px 5px 0;
+}
+
+#setup #item6 #circle {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+#setup #item6 h4 {
+  font-size: 0.8em;
+  color: #1264d8;
+  margin-left: 50px;
+  margin-top: -30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#setup #item6 h5 {
+  font-size: 0.8em;
+  color: #424a57;
+  margin-left: 50px;
+  margin-top: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#setup #item7 {
+  border: 1px solid #424a57;
+  width: 600px;
+  height: 70px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px 5px 5px 0;
+}
+
+#setup #item7 #circle {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+#setup #item7 h4 {
+  font-size: 0.8em;
+  color: #424a57;
+  margin-left: 60px;
+  margin-top: -30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#setup #item7 h5 {
+  font-size: 0.8em;
+  color: #424a57;
+  margin-left: 60px;
+  margin-top: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#setup2 {
+  width: 400px;
+  margin-left: 730px;
+  margin-top: -780px;
+}
+
+#setup2 #item8 {
+  width: 300px;
+  margin-top: 20px;
+}
+
+#setup2 #item8 #app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.border-top {
+  margin-left: -445px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1500px;
+  position: fixed;
+}
+
+.border-top div.border-1 {
+  width: 3%;
+  background-color: #28a1d8;
+}
+
+.border-top div.border-2 {
+  width: 30%;
+  background-color: #248bc7;
+}
+
+.border-top div.border-3 {
+  width: 15%;
+  background-color: #1e3955;
+}
+
+.border-top div.border-4 {
+  width: 20%;
+  background-color: #2f5132;
+}
+
+.border-top div.border-5 {
+  width: 30%;
+  background-color: #416828;
+}
+
+.border-top div.border-6 {
+  width: 15%;
+  background-color: #7eaa29;
+}
+
+.border-top div.border-7 {
+  width: 6%;
+  background-color: #dcbd42;
+}
+
+.border-top div.border-8 {
+  width: 10%;
+  background-color: #dcad27;
+}
+
+.border-top div.border-9 {
+  width: 20%;
+  border: solid #e39a23;
+}
+
+.border-top div.border-10 {
+  width: 50%;
+  border: solid #cc554c;
+}
+
+.border-top div.border-11 {
+  width: 20%;
+  border: solid #a72834;
+}
+
+.border-top div.border-12 {
+  width: 20%;
+  border: solid #735675;
+}
+
+.border-top div.border-13 {
+  width: 20%;
+  border: solid #3b315b;
+}
+/*# sourceMappingURL=piggyvest.css.map */
